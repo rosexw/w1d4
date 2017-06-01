@@ -17,7 +17,7 @@ Result should print: "Found Waldo at index 3!"
 function findWaldo(arr, found) {
   for (var i = 0; i < arr.length; i++) {
     if (arr[i] === "Waldo") {
-    	var num = arr[i];
+    	//var num = arr[i];
     	actionWhenFound(i);   // execute callback
     }
   }
