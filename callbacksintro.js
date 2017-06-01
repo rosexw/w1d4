@@ -12,6 +12,8 @@ Result should print: "Found Waldo at index 3!"
 */
 
 // The second argument/parameter is expected to be a function
+
+// first way to findWaldo
 function findWaldo(arr, found) {
   for (var i = 0; i < arr.length; i++) {
     if (arr[i] === "Waldo") {
