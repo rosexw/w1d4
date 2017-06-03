@@ -1,3 +1,9 @@
+/* 3. Callbacks - anonymous functions and array iterators
+Array Mapping Challenge
+Related to filter, is Array.prototype.map.
+If you recall Pythagorean Theorem (x^2 + y^2 = z^2), then this should be a breeze.
+Complete the following code for the assertion to pass. The result should be an array of numbers corresponding to the x-y pairs provided in the input array (ie: calculate z given x and y).
+*/
 //pythagorean theorem, find z
 //z^2 = x^2 + y^2 : is a fundamental relation in Euclidean geometry among the three sides of a right triangle. It states that the square of the hypotenuse (the side opposite the right angle) is equal to the sum of the squares of the other two sides. The theorem can be written as an equation relating the lengths of the sides a, b and c, often called the "Pythagorean equation":[1]
 

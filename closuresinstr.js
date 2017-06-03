@@ -1,3 +1,5 @@
+/* 6 closure instructions - no real activity here, but just to understand how closures work */
+
 /*Closures example*/
 var outer = function() {
   var x = 10;
@@ -42,3 +44,15 @@ var foo = (function() {
       // assigning the returned value (inner) to foo
 
 foo();
+
+/*
+Closures definition
+JavaScript will retain the context of parent functions, meaning that it will retain references to any variables in parent functions (this is referred to as Lexical Scoping 1).
+
+When a function retains the context of a parent function, we call that a "closure".
+
+For more on closures, check out Eloquent JavaScript (just the Closure section).
+http://eloquentjavascript.net/03_functions.html#h_hOd+yVxaku
+Or for something more in-depth and with more examples, try MDN.
+https://developer.mozilla.org/en/docs/Web/JavaScript/Closures
+*/

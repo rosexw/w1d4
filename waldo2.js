@@ -1,3 +1,14 @@
+/* 2. Where's Waldo using forEach
+use array forEach, array.prototype.forEach()
+Exercise - Array forEach
+A very common implementation of callback functions is with forEach which uses callbacks to allow us to easily iterate through the elements of an array.
+
+Read about iterating through elements of an array using JavaScript's Array.prototype.forEach() method.
+
+Refactor the function findWaldo to use the forEach() method instead of a for loop.
+*/
+
+
 // The second argument/parameter is expected to be a function
 
 // first way to findWaldo

@@ -1,0 +1,87 @@
+Script started on Sat 03 Jun 2017 10:38:01 PM UTC
+vagrant [0;34m[[0;31mw1d4[0;32m[0;34m][0m> w1d1[K[K[K[Kcd ..
+vagrant [0;34m[[0;31mprojects[0;32m[0;34m][0m> git add[K[K[Kstatus
+fatal: Not a git repository (or any parent up to mount point /vagrant)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+vagrant [0;34m[[0;31mprojects[0;32m[0;34m][0m[0;31m>[0m w[Kcd w1d1
+vagrant [0;34m[[0;31mw1d1[0;32m[0;34m][0m> git status
+fatal: Not a git repository (or any parent up to mount point /vagrant)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+vagrant [0;34m[[0;31mw1d1[0;32m[0;34m][0m[0;31m>[0m cd ..
+vagrant [0;34m[[0;31mprojects[0;32m[0;34m][0m> w1[K[Kcd w1d3
+vagrant [0;34m[[0;31mw1d3[0;32m[0;34m][0m> git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   charcount.js[m
+	[31mmodified:   countLetters.js[m
+	[31mmodified:   iteration.js[m
+	[31mmodified:   tax.js[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mlibrary/[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+vagrant [0;34m[[0;31mw1d3[0;32m[0;34m][0m> git add .
+vagrant [0;34m[[0;31mw1d3[0;32m[0;34m][0m> git commit -m "added comments to each file to determine [K[K[K[K[K[K[K[K[Kifferentiate w[Kthe  exercises for easier pb[K[Kbrowsing"
+[master 756bfc1] added comments to each file to differentiate the exercises for easier browsing
+ 5 files changed, 89 insertions(+), 14 deletions(-)
+ create mode 160000 library
+vagrant [0;34m[[0;31mw1d3[0;32m[0;34m][0m> git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+
+	[31mmodified:   library[m (modified content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+vagrant [0;34m[[0;31mw1d3[0;32m[0;34m][0m> cd library
+vagrant [0;34m[[0;31mlibrary[0;32m[0;34m][0m> git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   library.js[m
+	[31mmodified:   librarypart2.js[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+vagrant [0;34m[[0;31mlibrary[0;32m[0;34m][0m> git add .
+vagrant [0;34m[[0;31mlibrary[0;32m[0;34m][0m> git commit -m " [Kadded comments to differenti[K[K[K[K[K[K[K[K[K[K[K tell what the exercise is to  do"
+[master 36641f4] added comments to tell what the exercise is to do
+ 2 files changed, 16 insertions(+), 24 deletions(-)
+vagrant [0;34m[[0;31mlibrary[0;32m[0;34m][0m> cd ..
+vagrant [0;34m[[0;31mw1d3[0;32m[0;34m][0m> cd..[K[K ..
+vagrant [0;34m[[0;31mprojects[0;32m[0;34m][0m> cd w1d4
+vagrant [0;34m[[0;31mw1d4[0;32m[0;34m][0m> git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   advancedsorting.js[m
+	[31mmodified:   arraymap.js[m
+	[31mmodified:   arraysort.js[m
+	[31mmodified:   buildmap.js[m
+	[31mdeleted:    callbacksintro.js[m
+	[31mmodified:   closuresinstr.js[m
+	[31mmodified:   waldo2.js[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mcountdown.js[m
+	[31mloadeddie.js[m
+	[31mtypescript[m
+	[31mwaldo1.js[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+vagrant [0;34m[[0;3

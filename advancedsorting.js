@@ -7,7 +7,7 @@ Did you notice that the sort() function modifies the array being sorted, whereas
 */
 /*pseudo code
 1. sort in alphabetical order
-2. if same name, 
+2. if same name,
 	then sort older to younger
 */
 
@@ -19,7 +19,7 @@ var students = [
   { id: 4, name: "alex",     age: 30 }
 ];
 
-/*
+/* this is from the readings, copied over as an example:
 function compare(a, b) {
   if (a is less than b by some ordering criterion) {
     return -1;
